@@ -4,8 +4,11 @@
 
 replicaCount: 1
 
+podAnnotations: {}
+podLabels: {}
+
 image:
-  repository: nginx
+  repository: wagnermanganelli164/webserver-hello-world
   pullPolicy: IfNotPresent
   tag: ""
 
@@ -16,3 +19,4 @@ fullnameOverride: ""
 service:
   type: ClusterIP
   port: 80
+  targetPort: 8080
