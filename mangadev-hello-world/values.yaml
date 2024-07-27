@@ -8,7 +8,7 @@ podAnnotations: {}
 podLabels: {}
 
 image:
-  repository: wagnermanganelli164/webserver-hello-world:0.1.0
+  repository: wagnermanganelli164/webserver-hello-world:0.2.0
   pullPolicy: IfNotPresent
   tag: ""
 

@@ -33,7 +33,7 @@ func Holidays(w http.ResponseWriter, r *http.Request) {
 }
 
 func Healthz(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("ok v1"))
+	w.Write([]byte("ok v2"))
 }
 
 func main() {

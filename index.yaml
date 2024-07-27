@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   mangadev-hello-world:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-07-27T16:56:00.614345-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 57767d8409786afa57181dfb145d4a581cb430a75e7421b9252506c4d605af23
+    name: mangadev-hello-world
+    type: application
+    urls:
+    - https://manganellidev.github.io/helm-charts/mangadev-hello-world-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-27T16:53:49.25064-03:00"
+    created: "2024-07-27T16:56:00.614035-03:00"
     description: A Helm chart for Kubernetes
     digest: e09af1c208da2d1e6b2a9dfae6428f9fbee39bb2e2f21b859526addd95360803
     name: mangadev-hello-world
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://manganellidev.github.io/helm-charts/mangadev-hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-27T16:53:49.250257-03:00"
+generated: "2024-07-27T16:56:00.613556-03:00"
