@@ -1,6 +1,6 @@
 REPO_NAME ?= wagnermanganelli164
 IMAGE_NAME = $(REPO_NAME)/webserver-hello-world
-TAG = latest
+TAG ?= latest
 
 build-image:
 	docker build -t $(IMAGE_NAME):$(TAG) .
